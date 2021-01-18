@@ -6,11 +6,11 @@ function toggleSidebar() {
     if (mini) {
         console.log("opening sidebar");
         document.getElementById("mySidebar").style.width = "300px";
-        document.getElementById("main").style.marginLeft = "300px";
+//        document.getElementById("main").style.marginLeft = "300px";
     } else {
         console.log("closing sidebar");
         document.getElementById("mySidebar").style.width = "50px";
-        document.getElementById("main").style.marginLeft = "50px";
+//        document.getElementById("main").style.marginLeft = "50px";
         
     }
     this.mini = !this.mini;
